@@ -1,0 +1,35 @@
+.App {
+  text-align: center;
+
+  .btn-brown {
+    background-color: brown;
+    color: white;
+    border-radius: 4px;
+  }
+}
+
+.container {
+  overflow: auto;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.pagination a {
+  margin: 0 0.25rem;
+  padding: 0.25rem 0.5rem;
+  text-decoration: none;
+  border: 1px solid #ccc;
+  color: #333;
+}
+
+.pagination a.active {
+  background-color: #3182ce;
+  color: #fff;
+}
+
+
+
