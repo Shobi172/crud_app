@@ -187,7 +187,6 @@ const Home = () => {
     }
   };
 
-
   return (
     <Box p={4} maxWidth={1200} mx="auto">
       <Flex justify="space-between" mb={4}>
@@ -251,7 +250,7 @@ const Home = () => {
                 </Tr>
               </Thead>
               <Tbody>
-                {users.map((user, index) => (
+                {paginatedUsers.map((user, index) => (
                   <Tr key={user._id}>
                     <Td>{index + 1}</Td>
                     <Td>{`${user.firstName} ${user.lastName}`}</Td>
@@ -265,7 +264,9 @@ const Home = () => {
                         bg="brown"
                         color="white"
                         value={user.status}
-                        onChange={(e) => handleStatusChange(user._id, e.target.value)}
+                        onChange={(e) =>
+                          handleStatusChange(user._id, e.target.value)
+                        }
                       >
                         <option value="active">Active</option>
                         <option value="inactive">Inactive</option>
