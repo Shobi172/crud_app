@@ -14,8 +14,8 @@ app.use(express.json());
 
 app.use(router);
 
-const port = process.env.BASE_URL || 5000; 
+const PORT = process.env.PORT || 5000; 
 
-app.listen(port, () => {
-  console.log(`Server is listening on port ${port}`);
+app.listen(PORT, () => {
+  console.log(`Server is listening on port ${PORT}`);
 });
