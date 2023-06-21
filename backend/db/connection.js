@@ -11,3 +11,4 @@ mongoose.connect(process.env.DATABASE, {
   .catch((error) => {
     console.error('Error connecting to MongoDB:', error);
   });
+
