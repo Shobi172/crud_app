@@ -19,6 +19,7 @@ git clone https://github.com/Shobi172/crud_app.git
 
 
 cd crud-app
+
 npm install
 
 
@@ -27,10 +28,12 @@ npm install
 
 
 cd frontend
+
 npm start
 
 
 cd ../backend
+
 node app.js
 
 
