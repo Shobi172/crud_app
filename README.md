@@ -67,7 +67,7 @@ React
 
 Chakra UI (for UI components)
 
-Node (backend)
+Node (as the backend)
 
 Axios (for API requests)
 
@@ -82,7 +82,7 @@ MongoDB (as the database)
 
 2. Create a new branch (git checkout -b feature/your-feature-name)
 
-3. Make your changes and commit them (git commit -am 'Add some feature')
+3. Make your changes and commit them (git commit -m 'Add some feature')
 
 4. Push your changes to your branch (git push origin feature/your-feature-name)
 
