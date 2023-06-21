@@ -1,7 +1,7 @@
 # CRUD App 
 
 
- This is a CRUD (Create, Read, Update, Delete) application that allows users to manage users' data. It is built using React, Chakra UI, React Router, Axios, and MongoDB.
+ This is a CRUD (Create, Read, Update, Delete) application that allows users to manage users' data. It is built using React, Chakra UI, Node, Axios, and MongoDB.
 
 # Getting Started
 
@@ -67,7 +67,7 @@ React
 
 Chakra UI (for UI components)
 
-React Router (for routing)
+Node (backend)
 
 Axios (for API requests)
 
